@@ -48,6 +48,14 @@
                         <i class="fas fa-edit"></i> Hiệu chỉnh</span
                     >
                 </router-link>
+                <router-link
+                    :to="{ name: 'contact.new' }"
+                >
+                    <span class="mt-2 badge badge-primary">
+                        <i class="fas fa-plus"></i> Thêm mới liên hệ
+                    </span>
+                </router-link>
+
             </div>
         </div>
     </div>
