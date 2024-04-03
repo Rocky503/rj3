@@ -1,10 +1,10 @@
 <script>
   import AppHeader from "@/components/AppHeader.vue";
   export default {
-    components: {
+    components:{
     AppHeader,
   },
-},
+};
 </script>
 
 <template>
